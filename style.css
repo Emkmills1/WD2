@@ -21,9 +21,6 @@ grid-area: main;
 background-color: purple;
 grid-area: footer;
 }
-div {
-height: 60px;
-}
 
 .container1 { /*for index.html*/
   display: grid;
