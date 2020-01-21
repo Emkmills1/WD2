@@ -1,4 +1,8 @@
-
+body {
+   background: linear-gradient(to right, lightgreen, teal); 
+   font-famil: Veradana;
+   margin:0;
+}
 
 nav {
 background:rgba(0,0,0,.2);
@@ -29,6 +33,11 @@ a:hover {
 .header {
 background-color: red;
 grid-area: header;
+}
+
+header h1{
+color: mediumspringgreen; 
+   text-shadow: 2px 2px 5px navy;
 }
 
 
