@@ -3,6 +3,7 @@
 nav {
 background:rgba(0,0,0,.2);
 grid-area:nav;
+   width:auto;
 }
 nav ul {
    padding:10px;
@@ -34,6 +35,7 @@ grid-area: header;
 .main {
 background-color: yellow;
 grid-area: main;
+   width:1fr;
 }
 
 .footer {
