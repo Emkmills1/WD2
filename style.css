@@ -9,10 +9,12 @@ nav {
 background:rgba(0,0,0,.2);
 grid-area:nav;
 }
+
 nav ul {
    padding:10px;
    margin:0;
 }
+
 nav li {
     padding:10px 10px;
     list-style-type:none;
@@ -20,6 +22,7 @@ nav li {
     font-weight:bold;
     font-size: 1.5em;
 }
+
 nav a {
     text-decoration:none;
     color:navy;
@@ -41,11 +44,11 @@ header h1 {
    color: mediumspringgreen; 
    text-shadow: 2px 2px 5px navy;
    font-size:5vw;
-   
-   }
+}
 
 header h3 {
    font-size:2vw;
+   color:navy;
 }
 
 main {
@@ -54,23 +57,27 @@ grid-area: main;
    padding:5px;
  }
 
-p {
+main p {
  color:white;
    font-size:1em;
 }
 
 main h2 {
    font-size:3em;
+   color:navy;
 }
    
 
 footer {
  background:rgba(0,0,0,.2);
 grid-area: footer;
-   margin:0;
+   margin:0;  
 }
 
-
+footer p {
+ color:white;
+   font-size:1em;
+}
 
 
 container1 { /*for index.html*/
