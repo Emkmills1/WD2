@@ -86,7 +86,7 @@ footer p {
   display: grid;
   grid-template-columns: 25% auto;
   grid-template-areas:
-    "header header "
+    "header header"
     "nav main"
     "footer footer";
     }
