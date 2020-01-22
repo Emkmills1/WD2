@@ -1,4 +1,9 @@
 
+body {
+   background: linear-gradient(to right, lightgreen, teal); 
+   font-family: Verdana; 
+   margin:0;
+}
 
 nav {
 background:rgba(0,0,0,.2);
