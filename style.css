@@ -80,7 +80,7 @@ footer p {
 }
 
 
-container1 { /*for index.html*/
+.container1 { /*for index.html*/
   display: grid;
   grid-template-columns: 25% auto;
   grid-template-areas:
