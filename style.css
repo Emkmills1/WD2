@@ -13,7 +13,7 @@ nav li {
     list-style-type:none;
     font-size:1.5em;
     font-weight:bold;
-   width: 1.5em;
+    font-size: 1.5em;
 }
 nav a {
     text-decoration:none;
@@ -35,11 +35,12 @@ header h1 {
    margin:0;
    color: mediumspringgreen; 
    text-shadow: 2px 2px 5px navy;
-   width:5vw;
+   font-size:5vw;
+   
    }
 
 header h3 {
-   width:2vw;
+   font-size:2vw;
 }
 
 main {
@@ -50,11 +51,11 @@ grid-area: main;
 
 main p {
  color:white;
-   width:1em;
+   font-size:1em;
 }
 
 main h2 {
-   width:3em;
+   font-size:3em;
 }
    
 
@@ -66,7 +67,7 @@ grid-area: footer;
 
 footer p {
    color:white;
-   width:1em;
+   font-size:1em;
 }
 
 
