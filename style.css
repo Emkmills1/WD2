@@ -44,7 +44,7 @@ header h1 {
    color: mediumspringgreen; 
    text-shadow: 2px 2px 5px navy;
    font-size:5vw;
-  justify-items:stretch;
+   justify-self: center;
 
 }
 
@@ -52,7 +52,7 @@ header h3 {
    font-size:2vw;
    color:navy;
    margin:0;
-      justify-items:stretch;
+   justify-self: center;
 }
 
 main {
@@ -70,7 +70,7 @@ main h2 {
    font-size:2em;
    color:navy;
    margin:0;
-   justify-items:stretch;
+     justify-self: center;
 }
    
 
