@@ -44,14 +44,15 @@ header h1 {
    color: mediumspringgreen; 
    text-shadow: 2px 2px 5px navy;
    font-size:5vw;
-   justify-item:center;
+  justify-items:stretch;
+
 }
 
 header h3 {
    font-size:2vw;
    color:navy;
    margin:0;
-     justify-item:center;
+      justify-items:stretch;
 }
 
 main {
@@ -69,7 +70,7 @@ main h2 {
    font-size:2vw;
    color:navy;
    margin:0;
-     justify-item:center;
+      justify-items:stretch;
 }
    
 
