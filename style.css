@@ -44,7 +44,7 @@ header h1 {
    color: mediumspringgreen; 
    text-shadow: 2px 2px 5px navy;
    font-size:5vw;
-   justify-self: center;
+   justify-self: end;
 
 }
 
@@ -52,8 +52,7 @@ header h3 {
    font-size:2vw;
    color:navy;
    margin:0;
-   justify-self: center;
-}
+  text-align:center;
 
 main {
  background:rgba(0,0,0,.2);
