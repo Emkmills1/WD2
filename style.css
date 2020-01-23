@@ -8,6 +8,7 @@ body {
 nav {
 background:rgba(0,0,0,.2);
 grid-area:nav;
+   
 }
 
 nav ul {
@@ -52,6 +53,7 @@ header h3 {
    font-size:2vw;
    color:navy;
    margin:0;
+}
   
 main {
  background:rgba(0,0,0,.2);
