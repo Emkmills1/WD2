@@ -67,10 +67,10 @@ main p {
 }
 
 main h2 {
-   font-size:2vw;
+   font-size:2em;
    color:navy;
    margin:0;
-      justify-items:stretch;
+   justify-items:stretch;
 }
    
 
