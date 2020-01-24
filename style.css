@@ -1,15 +1,17 @@
 
 body {
-   background: linear-gradient(to right, lightgreen, teal); 
-   font-family: Verdana; 
-   margin:0;
+ background: linear-gradient(to right, lightgreen, teal);
+ font-family: Verdana;
+ margin: 0;
 }
+           
 
 nav {
-background:rgba(0,0,0,.2);
-grid-area:nav;
-   
-}
+    grid-area:nav;
+    background:rgba(0,0,0,.2);
+ justify-self:center;
+ 
+    }
 
 nav ul {
    padding:10px;
@@ -21,7 +23,6 @@ nav li {
     list-style-type:none;
     font-size:1.5em;
     font-weight:bold;
-    font-size: 1.5em;
 }
 
 nav a {
@@ -33,71 +34,30 @@ a:hover {
     color:white;
 }
 
+
 header {
- background:rgba(0,0,0,.2);
-grid-area: header;
+background:rgba(0,0,0,.2);
+grid-area: header; 
 text-align:center;
 }
 
 header h1 {
-   header h1: 5vw;
-   margin:0;
-   color: mediumspringgreen; 
-   text-shadow: 2px 2px 5px navy;
-   font-size:5vw;
-   text-align:center;
-
+ font-size: 5vw;
+ color: mediumspringgreen;
+ text-shadow: 2px 2px 5px navy;
+margin:0;
+ 
+ 
 }
 
 header h3 {
-   font-size:2vw;
-   color:navy;
-   margin:0;
-}
-  
-main {
- background:rgba(0,0,0,.2);
-grid-area: main;
-   padding:5px;
- }
-
-main p {
- color:white;
-   font-size:1em;
+ font-size:2vw;
+ color:navy;
+ margin:0;
+ 
+ 
 }
 
-main h2 {
-   font-size:2vw;
-   color:navy;
-   margin:0;
-   text-align:center;
-     
-}
-   
-
-footer {
- background:rgba(0,0,0,.2);
-grid-area: footer;
-   margin:0;  
-   text-align:center;
-}
-
-footer p {
- color:white;
-   font-size:1em;
-}
-
-
-.container1 { /*for index.html*/
-  display: grid;
-  grid-template-columns:auto 1fr;
-  grid-gap:.5em;
-  margin:1%;
-  grid-template-areas:
-    "header header"
-    "nav main"
-    "footer footer";
-    }
 
 
 
