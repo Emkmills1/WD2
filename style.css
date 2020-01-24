@@ -1,5 +1,4 @@
-
-body {
+ body {
  background: linear-gradient(to right, lightgreen, teal);
  font-family: Verdana;
  margin: 0;
@@ -9,7 +8,7 @@ body {
 nav {
     grid-area:nav;
     background:rgba(0,0,0,.2);
- justify-self:center;
+ 
  
     }
 
@@ -58,6 +57,42 @@ header h3 {
  
 }
 
+
+main {
+background:rgba(0,0,0,.2);
+grid-area: main;
+ padding:5px;
+}
+
+main h2 {
+ font-size:2vw;
+  color:navy;
+ margin:0;
+text-align:center;
+
+
+}
+
+main p {
+ font-size:1em;
+ color:white;
+
+}
+
+footer {
+background:rgba(0,0,0,.2);
+grid-area: footer;
+text-align:center;
+
+
+}
+
+footer p {
+ font-size:1em;
+ color:white;
+
+}
+
 .container1 { /*for index.html*/
   display: grid;
   grid-template-columns:auto 1fr;
@@ -67,6 +102,8 @@ header h3 {
     "header header"
     "nav main"
     "footer footer";
+    
+
     }
 
 
