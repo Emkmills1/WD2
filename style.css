@@ -69,6 +69,32 @@ main p {
   font-size:1em;
 }
 
+Aside {
+background:rgba(0,0,0,.2);
+}
+
+Aside li {
+color:navy;
+padding:10px 0;
+}
+
+Aside a {
+color: White;
+font-size:20px;
+}
+
+Aside a:hover {
+color:navy;
+}
+
+Aside h2 {
+color:navy;
+padding:5px 0;
+text-align:center;
+font-size:30px;
+}
+
+
 footer {
   grid-area:footer;
   background:rgba(0,0,0,.2);
@@ -92,6 +118,7 @@ footer p {
     "header"
     "nav"
     "main"
+    "aside"
     "footer";   
     }
 
@@ -129,6 +156,7 @@ footer p {
   grid-template-areas:
     "header header"
     "nav main"
+    "aside aside"
     "footer footer";
     }
 
@@ -155,11 +183,11 @@ footer p {
 @media only screen and (min-width: 960px)  {
 
 .container1 { /*for index.html*/
-  grid-template-columns:auto 1fr;
+  grid-template-columns:auto 1fr 25%;
   grid-template-areas:
-    "header header"
-    "nav main"
-    "footer footer";
+    "header header header"
+    "nav main aside"
+    "footer footer footer";
     }	
 
 	}
