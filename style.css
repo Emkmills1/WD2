@@ -169,6 +169,21 @@ section {
 grid-area:section;
 }
 
+audio {
+ max-width: 100%; 
+text-align:center;
+}
+video { 
+  max-width:  100%;
+  height:auto;
+}
+.video, .audio {
+    margin:0;
+    display: grid;  /*This needs to be set or it won't center*/
+    justify-content:space-around;
+
+}
+
 /*---------------------------Mobile Layout Styles----------------------------*/
 .container1 { /*for index.html*/
   display: grid;
@@ -240,6 +255,15 @@ grid-template-areas:
     padding-left:10px;
     padding-top:10px;
     }
+.container4 { /*for Destination.html*/
+  grid-gap:.5em;
+  display:grid;
+  grid-template-columns:100%;
+  grid-template-areas:
+    "header header"
+    "nav main"
+    "footer footer";
+    }
 
 
 /*-----------------------Tablet Media Query------------------------*/
@@ -279,7 +303,17 @@ display:grid;
 grid-template-areas:
 "section"
 "fig1";
+
 }
+.container4 { /*for Destination.html*/
+  grid-gap:.5em;
+  display:grid;
+  grid-template-columns:auto 1fr;
+  grid-template-areas:
+    "header header"
+    "nav main"
+    "footer footer";
+    }
 
 /* Below will change from hamburger menu to side navigation*/
   
@@ -320,7 +354,7 @@ grid-template-areas:
    "footer footer footer";
     }	
 
-.container3 { /*for special.html*/
+.container3 { /*for Special.html*/
   grid-template-columns:auto 1fr;
   grid-template-areas:
     "header header"
@@ -336,6 +370,15 @@ grid-template-areas:
 
 
 }
+.container4 { /*for Destination.html*/
+  grid-gap:.5em;
+  display:grid;
+  grid-template-columns:auto 1fr;
+  grid-template-areas:
+    "header header"
+    "nav main"
+    "footer footer";
+    }
 }
 
 
