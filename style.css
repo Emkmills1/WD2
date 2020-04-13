@@ -192,10 +192,10 @@ form {
     padding:10px;
 }
 
-button {
+.button {
 padding:5px;
 color:lightseagreen;
-background:navy;
+background-color:navy;
 }
 
 .call {
